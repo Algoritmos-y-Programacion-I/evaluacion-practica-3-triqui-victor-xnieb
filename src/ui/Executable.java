@@ -96,9 +96,9 @@ public class Executable {
         // Implementación de la validación si alguien ya ganó el triqui
         if(!cont.verificarGanador().equals(" ")){
             if(cont.verificarGanador().equals("x")){
-                System.out.println("Gano maquina");
+                System.out.println("Gano humano");
             } else {
-                System.out.println("gano humano");
+                System.out.println("gano maquina");
             }
         } else {
             System.out.println("No hay un ganador todavia.");
